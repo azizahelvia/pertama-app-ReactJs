@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AppClass from './AppClass';
 import reportWebVitals from './reportWebVitals';
+import AppVar from './AppVar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App nama="Azizah Elvia Shofiyah Salsabila" absen= "2" />
+    <AppClass />
+    <AppVar namaSiswa="Azizah Elvia Shofiyah Salsabila" absenSiswa="2"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
